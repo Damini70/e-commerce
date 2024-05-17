@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tv-maze/static/css/main.cfd36ac1.css",
+    "main.js": "/tv-maze/static/js/main.f408056a.js",
+    "static/js/787.cdcdca4b.chunk.js": "/tv-maze/static/js/787.cdcdca4b.chunk.js",
+    "index.html": "/tv-maze/index.html",
+    "main.cfd36ac1.css.map": "/tv-maze/static/css/main.cfd36ac1.css.map",
+    "main.f408056a.js.map": "/tv-maze/static/js/main.f408056a.js.map",
+    "787.cdcdca4b.chunk.js.map": "/tv-maze/static/js/787.cdcdca4b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfd36ac1.css",
+    "static/js/main.f408056a.js"
+  ]
+}

@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+div {
+  display: block;
+}
+.App {
+  margin: 10px;
+  text-align: center;
+  border: 2px solid pink;
+  position: relative;
+}
+.cartbtn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 2rem;
+}
+
+input {
+  /* font-size: large;
+  padding: 1rem;
+  /* height: 80%; */
+  /* border-radius:  1rem; */
+  margin: 0.5rem;
+  align-items: center;
+  padding: 10px;
+  font-size: 1rem;
+  font-family: inherit;
+  border-radius: 1rem;
+}
+#in {
+  width: 50%;
+  background-color: pink;
+}
+/* img{
+  
+  width: 60%;
+} */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.data {
+  margin-left: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 1rem solid red;
+}
+.show {
+  margin-left: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 1rem solid red;
+}
+.content {
+  margin: 2.4rem 0;
+  display: block;
+  width: 40%;
+  border-radius: 1rem;
+
+  background-color: pink;
+  box-shadow: grey;
+}
+.host {
+  margin: 2.4rem 0;
+  display: block;
+  width: 60%;
+  border-radius: 1rem;
+
+  background-color: pink;
+  box-shadow: grey;
+}
+.details {
+  margin-top: 2rem;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  align-content: flex-end;
+}
+.name {
+  margin-top: 2rem;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  align-content: flex-end;
+}
+.pic img {
+  width: 85%;
+  height: 25%;
+}
+
+.img img {
+  width: 85%;
+  height: 25%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 694px) {
+  .show {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .data {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 550px) {
+  .show {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+  .data {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

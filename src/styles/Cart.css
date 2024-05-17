@@ -1,0 +1,11 @@
+.cart {
+  text-align: center;
+  background-color: aqua;
+}
+.cartItem {
+    
+}
+.price {
+  display: flex;
+  justify-content: center;
+}
